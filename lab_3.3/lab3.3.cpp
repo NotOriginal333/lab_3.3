@@ -28,7 +28,7 @@ int main()
     else if (x <= 2 * R2)
         y = -sqrt(R2 * R2 - (x - R2) * (x - R2));
     else if (x <= 6)
-        y = -(x - 2 * R2) / (2 * R2 - 6);
+        y = -((x - 2 * R2) / (6-2*R2));
     else y = -1;
     cout << endl;
     cout << "y = " << y << endl;
